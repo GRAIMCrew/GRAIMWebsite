@@ -2104,6 +2104,7 @@ ul.icons {
 		position: relative;
 		height: 24em;
 		background: url("images/Mixer4.jpg") center center;
+		background-repeat: no-repeat;
 		background-size: cover;
 		padding: 0;
 		background-attachment: fixed;
