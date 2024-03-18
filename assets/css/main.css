@@ -2103,6 +2103,11 @@ ul.icons {
 		justify-content: center;
 		position: relative;
 		height: 24em;
+		object-fit: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 		background: url("images/Mixer4.jpg") center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -2329,6 +2334,10 @@ ul.icons {
 
 	#footer {
 		background: #282b34 url("images/Mixer2.jpg");
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 		object-fit: cover;
 		color: #eee;
 		color: rgba(255, 255, 255, 0.5);
