@@ -2126,7 +2126,7 @@ ul.icons {
 			background-size: 100%;
 			object-fit: cover;
 			padding: 0;
-			background-attachment: scroll;
+			background-attachment: fixed;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover;
@@ -2351,7 +2351,7 @@ ul.icons {
 		color: rgba(255, 255, 255, 0.5);
 		padding-bottom: 2em;
 		margin-bottom: 0em;
-		background-attachment: scroll;
+		background-attachment: fixed;
 	}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b, #footer a {
@@ -2490,6 +2490,17 @@ ul.icons {
 
 	@media screen and (max-width: 1680px) {
 
+		#header {
+			background-attachment: scroll;
+		}
+
+		#header::before {
+			background-attachment: scroll;
+		}
+
+		#footer {
+			background-attachment: scroll;
+		}
 		/* Basic */
 
 			body, input, textarea, select {
@@ -2508,6 +2519,18 @@ ul.icons {
 				font-size: 11pt;
 				line-height: 1.5em;
 				letter-spacing: 0.015em;
+			}
+
+			#header {
+				background-attachment: scroll;
+			}
+	
+			#header::before {
+				background-attachment: scroll;
+			}
+	
+			#footer {
+				background-attachment: scroll;
 			}
 
 		/* Wrapper */
@@ -2568,7 +2591,18 @@ ul.icons {
 	}
 
 	@media screen and (max-width: 980px) {
+		
+		#header {
+			background-attachment: scroll;
+		}
 
+		#header::before {
+			background-attachment: scroll;
+		}
+
+		#footer {
+			background-attachment: scroll;
+		}
 		/* Section/Article */
 
 			header br {
@@ -2824,6 +2858,18 @@ ul.icons {
 /* Small */
 
 	@media screen and (max-width: 736px) {
+
+		#header {
+			background-attachment: scroll;
+		}
+
+		#header::before {
+			background-attachment: scroll;
+		}
+
+		#footer {
+			background-attachment: scroll;
+		}
 
 		/* Basic */
 
