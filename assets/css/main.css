@@ -2607,11 +2607,6 @@ ul.icons {
 			background-attachment: scroll;
 		}
 
-		.image.left {
-			
-			width: 100%;
-			margin: 2em 0 2em 0;
-		}
 		/* Section/Article */
 
 			header br {
@@ -2880,9 +2875,9 @@ ul.icons {
 			background-attachment: scroll;
 		}
 
-		#image.left {
-			margin: 2em;
-			width: 100% !important;
+		.image.left {			
+			width: 100%;
+			margin: 2em 0 2em 0;
 		}
 
 		/* Basic */
