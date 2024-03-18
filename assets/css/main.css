@@ -2097,7 +2097,7 @@ ul.icons {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		/* -moz-justify-content: center;
+		-moz-justify-content: center;
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
@@ -2106,7 +2106,7 @@ ul.icons {
 		object-fit: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
-		-o-background-size: cover; */
+		-o-background-size: cover;
 		background: url("images/Mixer4.jpg") center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -2345,7 +2345,7 @@ ul.icons {
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
-		background-size: 100%;
+		background-size: cover;
 		object-fit: cover;
 		color: #eee;
 		color: rgba(255, 255, 255, 0.5);
