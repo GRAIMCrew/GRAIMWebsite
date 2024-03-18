@@ -2115,7 +2115,7 @@ ul.icons {
 		background-attachment: fixed;
 	}
 
-		/* #header:before {
+		#header:before {
 			content: '';
 			position: absolute;
 			top: 0;
@@ -2124,13 +2124,14 @@ ul.icons {
 			height: 100%;
 			background: url("images/Mixer4.jpg") center center;
 			background-repeat: no-repeat;
-			background-size: cover;
+			background-size: 100%;
+			object-fit: cover;
 			padding: 0;
 			background-attachment: fixed;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover;
-		} */
+		}
 
 		.homepage #header {
 			height: 35em;
