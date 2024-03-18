@@ -2490,7 +2490,7 @@ ul.icons {
 
 	@media screen and (max-width: 1680px) {
 
-		#header {
+		/* #header {
 			background-attachment: scroll;
 		}
 
@@ -2500,7 +2500,7 @@ ul.icons {
 
 		#footer {
 			background-attachment: scroll;
-		}
+		} */
 		/* Basic */
 
 			body, input, textarea, select {
@@ -2521,7 +2521,7 @@ ul.icons {
 				letter-spacing: 0.015em;
 			}
 
-			#header {
+			/* #header {
 				background-attachment: scroll;
 			}
 	
@@ -2531,7 +2531,7 @@ ul.icons {
 	
 			#footer {
 				background-attachment: scroll;
-			}
+			} */
 
 		/* Wrapper */
 
