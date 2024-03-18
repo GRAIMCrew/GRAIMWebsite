@@ -182,7 +182,7 @@ input, select, textarea {
 		width: 68em;
 	}
 
-		/* @media screen and (max-width: 1680px) {
+		@media screen and (max-width: 1680px) {
 
 			.container {
 				width: 70em;
@@ -212,7 +212,7 @@ input, select, textarea {
 				width: calc(100% - 40px);
 			}
 
-		} */
+		}
 
 /* Row */
 
@@ -2126,7 +2126,7 @@ ul.icons {
 			background-size: 100%;
 			object-fit: cover;
 			padding: 0;
-			background-attachment: fixed;
+			background-attachment: scroll;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover;
@@ -2351,7 +2351,7 @@ ul.icons {
 		color: rgba(255, 255, 255, 0.5);
 		padding-bottom: 2em;
 		margin-bottom: 0em;
-		background-attachment: fixed;
+		background-attachment: scroll;
 	}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b, #footer a {
