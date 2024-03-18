@@ -2108,7 +2108,7 @@ ul.icons {
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
-		background: url("images/Mixer4.jpg") center center;
+		background: url("images/Mixer4.jpg");
 		background-repeat: no-repeat;
 		padding: 0;
 		background-attachment: fixed;
@@ -2139,10 +2139,10 @@ ul.icons {
 /* Logo */
 
 	#logo {
-		width: 100%;
+		width: auto;
 		text-align: center;
 		position: relative;
-		top: 1.5em;
+		top: 8.5em;
 	}
 
 		#logo h1 {
@@ -2151,6 +2151,8 @@ ul.icons {
 			color: #fff;
 			font-size: 2em;
 			letter-spacing: 0.25em;
+
+			
 		}
 
 		#logo p {
@@ -2521,7 +2523,7 @@ ul.icons {
 				letter-spacing: 0.015em;
 			}
 
-			/* #header {
+			#header {
 				background-attachment: scroll;
 			}
 	
@@ -2531,7 +2533,7 @@ ul.icons {
 	
 			#footer {
 				background-attachment: scroll;
-			} */
+			}
 
 		/* Wrapper */
 
