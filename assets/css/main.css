@@ -177,6 +177,8 @@ input, select, textarea {
 /* Container */
 
 	.container {
+		position:relative;
+		text-align: center;
 		margin: 0 auto;
 		max-width: 100%;
 		width: 68em;
@@ -1620,8 +1622,10 @@ input, select, textarea {
 			margin-left: auto;
 			margin-right: auto;
 			margin-bottom: 2em;
+			margin-top: 1em;
 			display: block;
 			width: 100%;
+			height: 15em;
 			/* margin: 0 0 2em 0; */
 		}
 
@@ -1669,6 +1673,22 @@ input, select, textarea {
 		.button.large {
 			font-size: 1em;
 			min-width: 14em;
+		}
+
+		.button.small {
+			font-size: 0.75em;
+			min-width: 0em;
+			height: 1.5em;
+			line-height: 1.5em;
+			padding: 0 0.5em 0 0.5em;
+			border-radius: 10em;
+			vertical-align: center;
+			/* justify-content: center; */
+			letter-spacing: 0em;
+		}
+
+		.button.small.act {
+			background: rgba(255, 255, 255, 1.) !important;
 		}
 
 		input[type="button"].style1,
@@ -1825,6 +1845,16 @@ input, select, textarea {
 
 		ul.actions.special {
 			text-align: center;
+		}
+		ul.pages {
+			display: flex;
+			justify-content:center;
+			align-items: top;
+		}
+
+		ul.pages li {
+			margin: 0 0.2em 0 0.2em;
+			/* align-self: center; */
 		}
 
 /* Feature List */
@@ -2281,7 +2311,7 @@ ul.icons {
 /* Intro */
 
 	#intro {
-		padding-bottom: 8em;
+		padding-bottom: 6em;
 		text-align: center;
 		margin-bottom: 0em;
 	}
@@ -2309,8 +2339,11 @@ ul.icons {
 			}
 
 		#intro p.style3 {
+			position:relative;
 			font-size: 1.1em;
-			width: 48em;
+			left: auto;
+			text-align: center;
+			width: 100%;
 			margin: 0 auto;
 		}
 
@@ -2566,6 +2599,10 @@ ul.icons {
 					font-size: 2.25em;
 				}
 
+				.image.featured {
+					height: auto;
+				}
+
 		/* Footer */
 
 			#footer {
@@ -2605,6 +2642,10 @@ ul.icons {
 
 		#footer {
 			background-attachment: scroll;
+		}
+
+		ul.pages  {
+			align-items: baseline;
 		}
 
 		/* Section/Article */
