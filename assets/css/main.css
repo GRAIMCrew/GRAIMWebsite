@@ -1919,6 +1919,10 @@ input, select, textarea {
 
 /* Icons */
 
+.contacts {
+	text-align: left;
+}
+
 ul.icons {
 	cursor: default;
 	list-style: none;
@@ -1930,12 +1934,23 @@ ul.icons {
 	padding-top: 0.em;
 }
 
-	ul.icons li {
+ul.iconsbottom {
+	cursor: default;
+	list-style: none;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0;
+	display: flex;
+	justify-content: center;
+	padding-top: 6em;
+}
+
+	ul.icons li, ul.iconsbottom li {
 		
 		padding: 0 2em 0 0;
 	}
 
-		ul.icons li:last-child {
+		ul.icons li:last-child, ul.iconsbottom li:last-child {
 			padding-right: 0 !important;
 		}
 
