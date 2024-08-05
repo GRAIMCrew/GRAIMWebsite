@@ -184,6 +184,21 @@ input, select, textarea {
 		width: 68em;
 	}
 
+	.container > p.style4 {
+		position:relative;
+		text-align: justify;
+		margin: 0 auto;
+		max-width: 100%;
+		width: 68em;
+	}
+
+	.container > ul {
+		text-align: left;
+	}
+	.container > ul > li {
+		text-align: justify;
+	}
+
 		@media screen and (max-width: 1680px) {
 
 			.container {
@@ -1604,7 +1619,8 @@ input, select, textarea {
 
 		.image.left {
 			float: left;
-			width: 50%;
+			max-width: 50%;
+			width: auto;
 			margin: 0 2em 2em 0;
 		}
 
@@ -2224,6 +2240,8 @@ ul.iconsbottom {
 /* PER IL BACKGROUND DELLA LISTA NELLA HOME */
 		#nav > ul {
 			display: inline-block;
+			position:relative;
+			left: 6%;
 			border-radius: 0.35em;
 			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
 			background-color: rgba(0, 0, 0, 0.5);
@@ -2234,6 +2252,24 @@ ul.iconsbottom {
 				display: inline-block;
 				text-align: center;
 				padding: 0 1.5em 0 1.5em;
+			}
+
+			
+		
+			#nav > ul.lang {
+				float: right;
+				left: 0%;
+				border-radius: 0.35em;
+				box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+				background-color: rgba(0, 0, 0, 0.5);
+				padding: 0 0em 0 0em;
+				margin-right: 2em;	
+				size: 20%;
+			}
+			#nav > ul.lang > li {
+				display: inline-block;
+				text-align: center;
+				padding: 0 0.75em 0 0.75em;
 			}
 
 				#nav > ul > li > ul {
@@ -2264,7 +2300,7 @@ ul.iconsbottom {
 					color: #e58549;
 				}
 
-				#nav > ul > li.active > a, #nav > ul > li.active > span {
+				#nav > ul > li.active > a, #nav > ul > li.active > span { 
 					color: #e58549;
 				}
 
@@ -2361,6 +2397,14 @@ ul.iconsbottom {
 			width: 100%;
 			margin: 0 auto;
 		}
+		#intro p.style4 {
+			position:relative;
+			font-size: 1.1em;
+			left: auto;
+			text-align: justify;
+			width: 100%;
+			margin: 0 auto;
+		}
 
 /* Features */
 
@@ -2376,6 +2420,7 @@ ul.iconsbottom {
 
 	#highlights .highlight {
 		text-align: justify;
+		border-bottom: solid 5px #eee;
 	}
 
 		#highlights .highlight h3 {
@@ -2384,6 +2429,9 @@ ul.iconsbottom {
 			font-size: 1.35em;
 			letter-spacing: 0.05em;
 			text-align: center;
+		}
+		#highlights .highlight h3:hover > a {
+			color: #772e01;
 		}
 
 /* Main */
@@ -2931,7 +2979,8 @@ ul.iconsbottom {
 			background-attachment: scroll;
 		}
 
-		.image.left {			
+		.image.left {
+			float:unset;			
 			width: 100%;
 			margin: 2em 0 2em 0;
 		}
